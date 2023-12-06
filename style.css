@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 80vw;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.topleft{
+    width: 50%;
+}
+
+.topright{ 
+    width: 50%;
+}
+
+.section1{
+   max-height: 120vh; 
+   color: rgb(255, 255, 255);
+}
+
+.section1 h1{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+}
+
+.dumbellimg{
+    padding-top: 2vw;
+    width: 220px;
+    height: 150px;
+}
+
+.gymimg{
+    transform: scale(0.80, 0.90);
+}
+
+.section2{
+    padding: 63px;
+}
+
+.section2 h1{
+    font-size: 2.3rem;
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box{ 
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(236, 102, 13);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.box h2{
+    font-size: 2rem;
+    padding: 15px;
+} 
+
+.box ul{
+    list-style-type: none;
+}
+
+.box ul li{
+   margin: 12px;
+}
+
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+} 
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+footer{
+    padding: 18px;
+    text-align: center;
+}
+
+.deal{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
+} 
